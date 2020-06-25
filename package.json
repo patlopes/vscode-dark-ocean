@@ -3,8 +3,9 @@
     "version": "1.0.7",
     "displayName": "Dark Ocean",
     "description": "A dark theme made by Patrick Lopes",
-    "publisher": "Patrick Lopes",
+    "publisher": "patricklopes33",
     "license": "MIT",
+    "repository": "https://github.com/patlopes/vscode-dark-ocean",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
