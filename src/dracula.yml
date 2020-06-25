@@ -1,25 +1,24 @@
-name: Omni
-author: Rocketseat
+name: Dark Ocean
+author: Patrick Lopes
 maintainers:
-  - Diego Fernandes <diego.schell.f@gmail.com>
-  - Luke Morales <lukemorales@live.com>
-semanticClass: theme.omni
-omni:
+  - Patrick Lopes <patricklopes33@gmail.com>
+semanticClass: theme.dark_ocean
+dark_ocean:
   base:
-    - &BG                   '#191622'
+    - &BG                   '#100e16'
     - &FG                   '#E1E1E6'
     - &SELECTION            '#41414D'
-    - &COMMENT              '#483C67'
+    - &COMMENT              '#9e90c1'
     - &CYAN                 '#988bc7'
     - &GREEN                '#67e480'
     - &ORANGE               '#E89E64'
-    - &PINK                 '#FF79C6'
+    - &PINK                 '#ff4d4f'
     - &PURPLE               '#78D1E1'
     - &RED                  '#E96379'
     - &YELLOW               '#e7de79'
   ansi:
     - &COLOR0               '#201B2D'
-    - &COLOR1               '#FF79C6'
+    - &COLOR1               '#ff4d4f'
     - &COLOR3               '#e7de79'
     - &COLOR2               '#67e480'
     - &COLOR4               '#78D1E1'

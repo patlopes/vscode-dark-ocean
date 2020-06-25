@@ -1,28 +1,16 @@
 {
-    "name": "theme-omni",
+    "name": "theme-dark-ocean",
     "version": "1.0.7",
-    "displayName": "Omni",
-    "homepage": "https://rocketseat.com.br/",
-    "description": "A dark theme made by Rocketseat",
-    "publisher": "rocketseat",
+    "displayName": "Dark Ocean",
+    "description": "A dark theme made by Patrick Lopes",
+    "publisher": "Patrick Lopes",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
         "lint": "node ./scripts/lint.js",
-        "package": "vsce package -o ./bin/omni.vsix",
+        "package": "vsce package -o ./bin/dark-ocean.vsix",
         "vscode:prepublish": "npm run build",
         "vsce-publish": "vsce publish"
-    },
-    "maintainers": [
-        "Diego Fernandes <diego.schell.fgmail.com>",
-        "Luke Morales <lukemorales@live.com>"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rocketseat/omni-vscode.git"
-    },
-    "bugs": {
-        "url": "https://github.com/rocketseat/omni-vscode/issues"
     },
     "engines": {
         "vscode": "^1.13.0"
@@ -31,8 +19,7 @@
         "Themes"
     ],
     "keywords": [
-        "omni",
-        "rocketseat",
+        "Dark Ocean",
         "theme",
         "color-theme"
     ],
@@ -44,9 +31,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Omni",
+                "label": "Dark Ocean",
                 "uiTheme": "vs-dark",
-                "path": "./theme/omni.json"
+                "path": "./theme/dark-ocean.json"
             }
         ]
     },
@@ -58,7 +45,7 @@
     },
     "__metadata": {
         "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-        "publisherDisplayName": "Omni",
+        "publisherDisplayName": "dark-ocean",
         "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
     }
 }
